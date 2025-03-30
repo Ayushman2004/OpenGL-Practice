@@ -1,4 +1,4 @@
-#include <GL/glew.h>
+#include <GL/glew.h> // should be before glfw import
 #include <GLFW/glfw3.h>
 #include <iostream>
 
@@ -21,7 +21,7 @@ int main(void)
     /* Make the window's context current */
     glfwMakeContextCurrent(window);
 
-    if (glewInit() != GLEW_OK) std::cout << "Error!\n";
+    if (glewInit() != GLEW_OK) std::cout << "Error!\n"; // should be after window init
 
     std::cout << glGetString(GL_VERSION)<<std::endl;
 

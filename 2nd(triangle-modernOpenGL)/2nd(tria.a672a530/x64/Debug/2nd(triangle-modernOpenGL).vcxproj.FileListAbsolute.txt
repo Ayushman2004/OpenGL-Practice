@@ -1,0 +1,3 @@
+C:\Users\comma\Desktop\projects\OpenGL-Practice\2nd(triangle-modernOpenGL)\x64\Debug\glew32d.dll
+C:\Users\comma\Desktop\projects\OpenGL-Practice\2nd(triangle-modernOpenGL)\x64\Debug\glfw3.dll
+C:\Users\comma\Desktop\projects\OpenGL-Practice\2nd(triangle-modernOpenGL)\2nd(tria.a672a530\x64\Debug\2nd(tria.4197C7D6.Up2Date
