@@ -36,7 +36,8 @@ int main(void)
     glBindBuffer(GL_ARRAY_BUFFER, buff);
     glBufferData(GL_ARRAY_BUFFER, sizeof(positions), positions, GL_STATIC_DRAW);
 
-
+    glVertexAttribPointer(0, 2, GL_FLOAT, GL_FALSE, 2 * sizeof(float), 0);
+    glEnableVertexAttribArray(0);
 
     /* Loop until the user closes the window */
     while (!glfwWindowShouldClose(window))
@@ -52,6 +53,7 @@ int main(void)
         /* Poll for and process events */
         glfwPollEvents();
     }
+    glBindBuffer(GL_ARRAY_BUFFER, 0);
 
     glfwTerminate();
     return 0;
